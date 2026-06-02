@@ -28,10 +28,6 @@ Python • Node.js • Java • Ubuntu • Linux • GitHub • AWS • Vercel �
 
 ---
 
-📈 Contributions
-
-"Snake animation" (https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg)
-
 ---
 
 💭 Favorite Quote
