@@ -32,7 +32,7 @@ Python • Node.js • Java • Ubuntu • Linux • GitHub • AWS • Vercel �
 
 💭 Favorite Quote
 
-«"The expert in anything was once a beginner who refused to quit."»
+The expert in anything was once a beginner who refused to quit.
 
 ---
 
