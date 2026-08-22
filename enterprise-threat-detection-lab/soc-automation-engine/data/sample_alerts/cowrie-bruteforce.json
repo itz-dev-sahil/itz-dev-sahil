@@ -1,0 +1,6 @@
+{
+  "timestamp": "2026-08-22T10:15:00.000+0000",
+  "rule": {"id": "100102", "level": 10, "description": "Cowrie: repeated failed SSH authentication attempts", "groups": ["cowrie", "authentication_failed", "brute_force"], "mitre": {"id": ["T1110"]}},
+  "agent": {"name": "cowrie-lab"},
+  "data": {"srcip": "172.28.0.30", "username": "labuser", "eventid": "cowrie.login.failed", "session": "abc123"}
+}

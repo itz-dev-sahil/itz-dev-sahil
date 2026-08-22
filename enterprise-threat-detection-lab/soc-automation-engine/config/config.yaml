@@ -1,0 +1,8 @@
+# JSON-compatible YAML. Secrets belong in environment variables, never here.
+risk_scoring:
+  repeated_alert_threshold: 5
+  critical_asset_bonus: 15
+  malicious_reputation_bonus: 25
+enrichment:
+  enabled: false
+  provider: VirusTotal
