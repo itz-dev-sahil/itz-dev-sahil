@@ -1,0 +1,25 @@
+services:
+  cowrie:
+    image: cowrie/cowrie:latest
+    container_name: etdl-cowrie
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:2222:2222"
+    networks: [soc_lab_net]
+    # Keep the port bound to loopback: never expose this lab honeypot to the Internet.
+
+  soc-engine:
+    build: ./soc-automation-engine
+    container_name: etdl-soc-engine
+    profiles: [automation]
+    environment:
+      - VT_API_KEY=${VT_API_KEY:-}
+    volumes:
+      - ./soc-automation-engine/data:/app/data
+    networks: [soc_lab_net]
+
+networks:
+  soc_lab_net:
+    name: soc_lab_net
+    driver: bridge
+    internal: true

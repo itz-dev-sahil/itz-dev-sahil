@@ -1,0 +1,6 @@
+.env
+*.log
+__pycache__/
+.DS_Store
+soc-automation-engine/data/output/*
+!soc-automation-engine/data/output/.gitkeep

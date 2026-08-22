@@ -1,0 +1,5 @@
+<!-- Cowrie JSON is decoded using Wazuh's built-in JSON decoder. Validate with wazuh-logtest before deployment. -->
+<decoder name="cowrie-json">
+  <prematch>^\{</prematch>
+  <plugin_decoder>JSON_Decoder</plugin_decoder>
+</decoder>
